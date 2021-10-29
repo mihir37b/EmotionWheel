@@ -6,7 +6,7 @@ import logo from "./EmotionWheel.png";
 function App() {
   return (
     <div>
-      <img src={logo} />
+      <img src={logo} alt={logo} />
       <div className="App">
         <FadeIn transitionDuration={700}>
           <FirstLayer />
