@@ -9,7 +9,7 @@ export default function FirstLayer() {
   const [second, setSecond] = useState(null);
 
   return (
-    <div>
+    <div className="container">
       {second ? (
         <FadeIn transitionDuration={700}>
           <SecondLayer secondEmotion={second} />

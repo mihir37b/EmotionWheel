@@ -34,7 +34,14 @@ export default function ThirdLayer({ secondEmotion, thirdEmotion }) {
                 </FadeIn>
               ) : (
                 <ul>
-                  <Navbar>
+                  <Navbar
+                    style={{
+                      position: "fixed",
+                      top: "-10%",
+                      left: "50%",
+                      transform: "translate(-50%, -50%)",
+                    }}
+                  >
                     <Nav.Link
                       className="links"
                       style={{ color: "white" }}

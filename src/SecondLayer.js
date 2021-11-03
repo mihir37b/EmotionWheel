@@ -21,7 +21,14 @@ export default function SecondLayer({ secondEmotion }) {
             </FadeIn>
           ) : (
             <ul>
-              <Navbar>
+              <Navbar
+                style={{
+                  position: "fixed",
+                  top: "-10%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                }}
+              >
                 <Nav.Link
                   style={{ color: "white" }}
                   onClick={() => toggleGoBack(true)}

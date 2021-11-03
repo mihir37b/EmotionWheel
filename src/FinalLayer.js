@@ -5,7 +5,7 @@ import FirstLayer from "./FirstLayer";
 import FadeIn from "react-fade-in";
 import SecondLayer from "./SecondLayer";
 import ThirdLayer from "./ThirdLayer";
-import { Button, ButtonGroup, Nav, Navbar } from "react-bootstrap";
+import { Button, Nav, Navbar } from "react-bootstrap";
 
 import "./FinalLayer.css";
 
@@ -20,7 +20,7 @@ export default function FinalLayer({
   const [goSecond, toggleThird] = useState(false);
   const [goFirst, toggleSecond] = useState(false);
   return (
-    <div>
+    <div className="container">
       <div className="first-container">
         {goFirst ? (
           <FadeIn transitionDuration={700}>
@@ -48,8 +48,15 @@ export default function FinalLayer({
                         <FirstLayer />
                       </FadeIn>
                     ) : (
-                      <div>
-                        <Navbar>
+                      <div className="result">
+                        <Navbar
+                          style={{
+                            position: "fixed",
+                            top: "-10%",
+                            left: "50%",
+                            transform: "translate(-50%, -50%)",
+                          }}
+                        >
                           <Nav.Link
                             className="links"
                             style={{ color: "white" }}
@@ -84,6 +91,7 @@ export default function FinalLayer({
                           </div>
                         </h3>
                         <Button
+                          className="restart"
                           variant="danger"
                           onClick={() => setGoBack(true)}
                         >
