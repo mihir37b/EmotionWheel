@@ -127,30 +127,96 @@ let emotionList = {
     },
   },
   Fearful: {
-    Scared: { Helpless: "Sample", Frightened: "Sample" },
-    Anxious: { Overwheled: "Sample", Worried: "Sample" },
-    Insecure: { Inadequate: "Sample", Inferior: "Sample" },
-    Weak: { Worthless: "Sample", Insignificant: "Sample" },
-    Rejected: { Excluded: "Sample", Persecuted: "Sample" },
-    Threatened: { Nervous: "Sample", Exposed: "Sample" },
+    Scared: {
+      Helpless:
+        "Helplessness, or a sense of being unable to act or react to a negative situation, may be experienced by anyone, especially during illness or when affected by a traumatic event. A persistent feeling of helplessness, however, can last long after a person's actual helplessness disappears",
+      Frightened: "afraid or anxious.",
+    },
+    Anxious: {
+      Overwheled:
+        "Most commonly means to cause to be overcome with emotion as a result of an amount of something (work, stress, etc.) that's just too much to handle",
+      Worried: "anxious or troubled about actual or potential problems.",
+    },
+    Insecure: {
+      Inadequate:
+        "lacking the quality or quantity required; insufficient for a purpose",
+      Inferior:
+        "of little or less importance as result of comparing ourselves to other people and feeling like we don't measure up",
+    },
+    Weak: {
+      Worthless:
+        "Worthlessness can be described as a feeling of desperation and hopelessness. Individuals who feel worthless may feel insignificant, useless, or believe they have nothing valuable to offer the world.",
+      Insignificant: "Feeling too small to be important",
+    },
+    Rejected: {
+      Excluded:
+        "Exclusion refers to the experience of being socially isolated, either physically (for example, being totally alone), or emotionally (for example, being ignored or told that one is unwanted).",
+      Persecuted:
+        "Feeling victim to hostility and ill-treatment, especially because of race or political or religious beliefs",
+    },
+    Threatened: {
+      Nervous:
+        "Easily agitated or alarmed; tending to be anxious; highly strung",
+      Exposed: "In a vulnerable position or situation.",
+    },
   },
   Surprised: {
-    Startled: { Schocked: "Sample", Dismayed: "Sample" },
-    Confused: { Disillusioned: "Sample", Perplexed: "Sample" },
-    Amazed: { Astonished: "Sample", Awe: "Sample" },
-    Excited: { Eager: "Sample", Energetic: "Sample" },
+    Startled: {
+      Schocked: "To feel surprised and upset.",
+      Dismayed: "To feel consternation and distress.",
+    },
+    Confused: {
+      Disillusioned:
+        "Disappointed in someone or something that one discovers to be less good than one had believed",
+      Perplexed: "completely baffled; very puzzled.",
+    },
+    Amazed: {
+      Astonished: "greatly surprised or impressed; amazed.",
+      Awe: "a feeling of reverential respect mixed with fear or wonder.",
+    },
+    Excited: {
+      Eager: "wanting to do or have something very much.",
+      Energetic: "showing or involving great activity or vitality.",
+    },
   },
   Disgusted: {
-    Disapproving: { Judgemental: "Sample", Embarrassed: "Sample" },
-    Disappointed: { Appalled: "Sample", Revolted: "Sample" },
-    Awful: { Nauseated: "Sample", Detestable: "Sample" },
-    Repelled: { Horrified: "Sample", Hesitant: "Sample" },
+    Disapproving: {
+      Judgemental:
+        "Having or displaying an excessively critical point of view.",
+      Embarrassed: "Feeling awkward, self-conscious, or ashamed.",
+    },
+    Disappointed: {
+      Appalled: "Greatly dismayed or horrified.",
+      Revolted: "To feel intense disgust",
+    },
+    Awful: {
+      Nauseated: "To feel sick to your stomach",
+      Detestable: "Feeling as if something is deserving intense dislike.",
+    },
+    Repelled: {
+      Horrified: "To  be filled with distaste or extreme shock.",
+      Hesitant: "tentative, unsure, or slow in acting or speaking.",
+    },
   },
   Bad: {
-    Bored: { Indifferent: "Sample", Apathetic: "Sample" },
-    Busy: { Pressured: "Sample", Rushed: "Sample" },
-    Stressed: { Overwheled: "Sample", "Out of Control": "Sample" },
-    Tired: { Sleepy: "Sample", Unfocused: "Sample" },
+    Bored: {
+      Indifferent: "Having no particular interest or sympathy; unconcerned.",
+      Apathetic: "Showing or feeling no interest, enthusiasm, or concern.",
+    },
+    Busy: {
+      Pressured:
+        "Strongly being persuaded into doing something you don't want to do",
+      Rushed: "Done or completed too hurriedly; hasty.",
+    },
+    Stressed: {
+      Overwheled:
+        "Most commonly means to be overcome with emotion as a result of an amount of something (work, stress, etc.) that's just too much to handle",
+      "Out of Control": "No longer possible to manage.",
+    },
+    Tired: {
+      Sleepy: "Inducing sleep; soporific.",
+      Unfocused: "Not seeing clearly; appearing glazed or expressionless",
+    },
   },
 };
 
